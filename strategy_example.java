@@ -62,16 +62,16 @@ package behavioral;
 		  System.out.println("***Strategy Pattern Demo***\n");
 		  
 		 //First time add
-		  OpContext context = new OpContext();
-		  int res= context.applyStrategy(6, 7);
+		  OpContext factors = new OpContext();
+		  int res= factors.applyStrategy(6, 7);
 		  
 		//Second time sub
 		  
-		  res= context.applyStrategy(150, 170);
+		  res= factors.applyStrategy(150, 170);
 		  
 		//Third time mul
 		  
-		  res= context.applyStrategy(60, 70);
+		  res= factors.applyStrategy(60, 70);
 	  }
  }
 
