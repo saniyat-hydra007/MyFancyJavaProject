@@ -4,7 +4,7 @@ package behavioral;
 
  interface Strategy
  {
-	int doAction(int a , int b);
+	int doAction(int c , int d);
  }
 
 
