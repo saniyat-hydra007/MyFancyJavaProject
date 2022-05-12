@@ -17,7 +17,8 @@ package behavioral;
 		 
 	 }
  }
- 
+
+//new comment
  class StrategySub implements Strategy
  {
 	  @Override
