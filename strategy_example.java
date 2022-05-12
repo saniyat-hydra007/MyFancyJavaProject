@@ -11,9 +11,9 @@ package behavioral;
  class StrategyAdd implements Strategy
  { 
 	 @Override
-	 public int doAction(int a , int b){
+	 public int doAction(int c , int d){
 		 
-		 return a+b;
+		 return c+b;
 		 
 	 }
  }
