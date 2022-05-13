@@ -11,9 +11,9 @@ package behavioral;
  class StrategyAdd implements Strategy
  { 
 	 @Override
-	 public int doAction(int a , int b){
+	 public int doAction(int c , int d){
 		 
-		 return a+b;
+		 return c+b;
 		 
 	 }
  }
@@ -22,9 +22,9 @@ package behavioral;
  class StrategySub implements Strategy
  {
 	  @Override
-	  public int doAction(int a , int b)
+	  public int doAction(int c , int d)
 	  {
-		  return a-b;
+		  return c-d;
 	  }
  }
 
@@ -75,6 +75,7 @@ package behavioral;
 		  res= factors.applyStrategy(60, 70);
 	  }
  }
+
 
 
 
